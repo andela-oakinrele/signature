@@ -1,0 +1,130 @@
+body {
+  background-image: linear-gradient(rgba(0,15,25,.6), rgba(2,1,25,.5)), url('../images/makeup.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  padding-top: 25px;
+}
+
+.body-content {
+  margin-top: 90px;
+  margin-left: 100px;
+}
+
+.navbar-default {
+  background: transparent;
+  border: none;
+  /*margin-bottom: 85px;*/
+}
+.navbar-default .navbar-brand {
+    color: #f5f5f5;
+    font-size: 28px;
+}
+
+.navbar-nav.navbar-right .active a {
+  color: #fff;
+  background: transparent;
+  border-bottom: 2px solid rgba(202, 10, 112, 0.8);
+}
+
+.navbar-nav.navbar-right .active a:hover {
+  color: #fff;
+  background: transparent;
+  border-bottom: 2px solid rgba(202, 10, 112, 0.8);
+}
+
+
+.navbar-nav.navbar-right li a {
+  color: #fff;
+}
+
+.navbar-nav.navbar-right li a:hover {
+  color: #fff;
+  opacity: 0.75;
+}
+
+.navbar-nav.navbar-right li a:focus {
+  color: #fff;
+}
+
+.footer-bottom{
+  background-color: rgba(202, 10, 112, 0.8);
+  opacity: 0.85;
+}
+
+.navbar-default .navbar-text {
+  color: #fff;
+}
+
+.welcome {
+  font-size: 73px;
+  font-weight: 200;
+/*  font-family: 'Sofia';*/
+}
+
+.signature{
+  display: block;
+  padding-left: 32px;
+}
+.welcome + p{
+ font-size:1.1em;
+ letter-spacing: 0.05em;
+ font-weight: 100;
+ width: 73%;
+}
+.info {
+  margin-left: -30px;
+}
+
+.play-button {
+  background-color: #0477b7;
+  border-radius: 0;
+  width: 123px;
+  height: 40px;
+  line-height: 2;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.makeup {
+  width: 320px;
+  background-color: #fff;
+  height: 450px;
+  padding: 10px 30px;
+  margin-left: 200px;
+
+}
+.makeup h4 {
+  color: #2d2d2d;
+  text-align: center;
+}
+
+.makeup ul {
+  color: #0477b7;
+  font-weight: 200;
+  font-size: 1em;
+  padding-left: 10px;
+}
+.makeup ul li{
+  margin-bottom: 20px;
+}
+
+.makeup ul li span{
+  color: #808080;
+}
+
+.lit {
+  width: 100px;
+  height: 100px;
+}
+
+.training {
+  width: 250px;
+  height: 150px;
+}
+
+.signature {
+    display: block;
+    margin-left: -100px;
+}
